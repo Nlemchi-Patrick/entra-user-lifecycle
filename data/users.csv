@@ -1,0 +1,4 @@
+DisplayName,UserPrincipalName,Department,JobTitle,Group
+John Doe,john.doe@techtired.onmicrosoft.com,HR,HR Officer,HR-Users
+Jane Smith,jane.smith@techtired.onmicrosoft.com,IT,System Admin,IT-Users
+Mark Brown,mark.brown@techtired.onmicrosoft.com,Finance,Accountant,Finance-Users
