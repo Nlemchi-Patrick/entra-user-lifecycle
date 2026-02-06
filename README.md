@@ -18,37 +18,37 @@ This project demonstrates Identity \& Access Management automation using:
 
 \## Features
 
-✔ Bulk user creation from CSV  
+✔ Bulk user creation from CSV
 
-✔ Security group assignment  
+✔ Security group assignment
 
-✔ Disable (offboard) users  
+✔ Disable (offboard) users
 
-✔ Script-based automation  
+✔ Script-based automation
 
-✔ Evidence screenshots  
+✔ Evidence screenshots
 
 
 
 \## Folder Structure
 
-scripts/        → PowerShell scripts  
+scripts/        → PowerShell scripts
 
-data/           → CSV input files  
+data/           → CSV input files
 
-screenshots/    → Proof images  
+screenshots/    → Proof images
 
-README.md       → Project documentation  
+README.md       → Project documentation
 
 
 
 \## Scripts
 
-create-users.ps1     → create users  
+create-users.ps1     → create users
 
-assign-groups.ps1    → add users to groups  
+assign-groups.ps1    → add users to groups
 
-disable-user.ps1     → block sign-in  
+disable-user.ps1     → block sign-in
 
 
 
@@ -82,21 +82,21 @@ Disable user:
 
 01-security-groups.png
 
-02-hr-group-overview.png   
+02-hr-group-overview.png
 
 03-graph-connected.png
 
-04-users-csv.png 
+04-users-csv.png
 
-05-group-membership.png 
+05-group-membership.png
 
-06-users-created.png  
+06-users-created.png
 
 07-user-disabled.png
 
-08-user-disabled.png  
+08-user-disabled.png
 
-09-github-repo.png  
+09-github-repo.png
 
 
 
@@ -114,5 +114,31 @@ Disable user:
 
 
 
+entra-user-lifecycle/
 
+│
+
+├── scripts/
+
+│   ├── create-users.ps1
+
+│   ├── assign-groups.ps1
+
+│   └── disable-user.ps1
+
+│
+
+├── data/
+
+│   └── users.csv
+
+│
+
+├── screenshots/
+
+│   └── \*.png
+
+│
+
+└── README.md
 
